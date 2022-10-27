@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  padding-bottom: 50px;
+  margin: 0;
+  margin-bottom: 20px;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* html {
+    color-scheme: dark;
+  } */
+  body {
+    color: black;
+    background: white;
+  }
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #e97451 !important;
+}
+
+.basic-background-container.img {
+  /* height: 100px; */
+  width: 100%;
+  background-color: aqua;
+}
+
+.box-minimal-container {
+  width: 100%;
+}
+
+.box-minimal-container h2 {
+  color: #e97451;
+  text-align: center;
+  height: 100%;
+  letter-spacing: 2px;
+}
+
+.basic-card-container {
+  padding: 10px;
+  border-radius: 15px;
+
+  margin-bottom: 0 15px 10px 15px;
+  -webkit-box-shadow: 0px 0px 44px -22px rgb(50 50 10 / 56%);
+  -moz-box-shadow: 0px 0px 44px -22px rgb(50 50 10 / 56%);
+  box-shadow: 0px 0px 44px -22px rgb(50 50 10 / 56%);
+}
+
+.basic-card-container p {
+  margin: 15px 70px 15px 0;
+  color: #a9a9a9;
+}
+
+.basic-card-container h4 {
+  margin: 15px 0;
+  color: #2e2e2e;
+}
+
+.padding_five_vert_box {
+  padding: 0 10px;
+}
+
+.padding_five_vert_box div {
+  margin: 10px 0;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.icon-advantage {
+  padding: 19px 10px 30px 0;
+  margin: 0 0 0 20px;
+}
