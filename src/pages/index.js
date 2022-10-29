@@ -1,8 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-
-import BasicButtons from "../components/atoms/buttons/BasicButtons";
-import BasicTextFields from "../components/atoms/inputs/BasicTextFields";
+import BasicAppBar from "../components/organims/headers/basicHeader";
+import BasicFooter from "../components/organims/footers/basicFooter";
 import Main from "./main";
 
 export default function Home() {
@@ -14,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <BasicAppBar />
         <Main />
+        <BasicFooter />
       </main>
     </div>
   );
