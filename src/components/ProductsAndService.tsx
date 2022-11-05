@@ -15,6 +15,7 @@ export default function ProductsAndService() {
               title="Crédito Consignado"
               paragraph="O Empréstimo Consignado é um tipo de crédito pessoal em que o pagamento das parcelas é descontado diretamente no seu contracheque, holerite ou benefício do INSS."
               imageLink={maxresdefault}
+              route='/payroll-loans'
             />
             
 
@@ -22,6 +23,7 @@ export default function ProductsAndService() {
               title="Antecipação saque aniversario FGTS"
               paragraph="É um empréstimo que permite a antecipação do valor de até 5 (cinco) parcelas de Saque Aniversário do FGTS."
               imageLink={saqueniver}
+              route='/payroll-loans'
             />
           </div>
         </div>
