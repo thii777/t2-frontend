@@ -29,7 +29,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-white dark:text-gray-400">
+            <div className="max-w-md mt-4 text-white dark:text-white">
               T2 Creditos, CNPJ 00.000.000/0001-00, Avenida Louraci Della Nina Tavares, 80, Mogilar, Mogi das Cruzes, SP, CEP: 08773-650
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
                 <Link key={index} href="/" legacyBehavior>
-                  <a className="w-full px-4 py-2 text-white rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                  <a className="w-full px-4 py-2 text-white rounded-md dark:text-white hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
                 </Link>
@@ -46,16 +46,16 @@ export default function Footer() {
           </div>
           <div className="">
             <div className="text-white">Follow us</div>
-            <div className="flex mt-5 space-x-5 text-white dark:text-gray-500">
+            <div className="flex mt-5 space-x-5 text-white dark:text-white">
               <a
-                href="https://www.instagram.com/t2cre.ditos/"
+                href="https://www.instagram.com/t2creditos/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="https://www.instagram.com/t2cre.ditos/"
+                href="https://www.instagram.com/t2creditos/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="sr-only">Instagram</span>
@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-white dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-white dark:text-white">
           Copyright ©, T2 Creditos
         </div>
       </Container>
