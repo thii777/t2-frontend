@@ -38,9 +38,11 @@ export default function Hero() {
             Conheça nossos parceiros
           </div>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+          <div className="flex flex-wrap justify-center gap-5 mt-5 md:justify-around">
+            <div
+             className="pt-2 bg-gray-200 p-2 items-center justify-center rounded-md text-gray-400 dark:text-gray-400">
               <Image src={bancoPan} alt={""} />
+              {/* <h1>testes</h1> */}
             </div>
           </div>
         </div>
