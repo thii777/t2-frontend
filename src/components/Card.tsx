@@ -9,7 +9,7 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white rounded-lg border border-gray-50 shadow-md dark:bg-gray-800 dark:border-gray-900">
       <a href="#">
         <Image className="rounded-t-lg" src={props.imageLink} alt=""/>
       </a>
