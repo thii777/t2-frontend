@@ -62,7 +62,7 @@ export default function Navbar() {
                   <>
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.route} legacyBehavior>
-                        <a className="w-full px-4 py-2 -ml-4 text-white rounded-md dark:text-gray-300 hover:text-orange-400 focus:text-orange-400">
+                        <a className="w-full px-4 py-2 -ml-4 text-white rounded-md dark:text-white hover:text-orange-400 focus:text-orange-400 hover:bg-slate-100 dark:hover:text-orange-400">
                           {item.name}
                         </a>
                       </Link>
@@ -88,7 +88,7 @@ export default function Navbar() {
             {navigation.map((menu) => (
               <li className="mr-3 nav__item" key={menu.name}>
                 <Link key={menu.name} href={menu.route} legacyBehavior>
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-white no-underline rounded-md dark:text-gray-200 hover:text-orange-400 focus:text-orange-400">
+                  <a className="inline-block px-4 py-2 text-lg font-normal text-white no-underline rounded-md dark:text-white hover:text-orange-400 focus:text-orange-400 hover:bg-slate-100 dark:hover:text-orange-400">
                     {menu.name}
                   </a>
                 </Link>
